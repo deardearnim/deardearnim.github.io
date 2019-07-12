@@ -58,10 +58,11 @@
 
     #footer #f-lefttwo {display:inline-block; position: absolute;
             width:206px; height:122px; margin:42 0 42px 316px;}
-    #footer #f-left a {color:white;}
-    #footer #f-left p {float: left;text-align: left;}
+     #footer #f-lefttwo img {float:left;}
+    #footer #f-lefttwo a {color:white;}
+    #footer #f-lefttwo p {float: left;text-align: left;}
 
-    #footer #f-right {display:inline-block; position: absolute; margin:15px 0 0 15px; }
+    #footer #f-right {display:inline-block; position: absolute; width:206px; height:122px;}
     #footer #f-right p {float:right; padding:42px 0 42px 0px; text-indent: 30px;}
     #footer #f-right p span {font-size: 25px;text-transform: capitalize;}
     #footer #f-right div {float:right; margin:5px 20px 5px 0;}
