@@ -1,0 +1,67 @@
+/* 초기화 */
+    *{margin:0; padding:0;}
+    body {background:url(img/bg.png) repeat-x;}
+    li {list-style:none;}
+    a {text-decoration:none;}
+    #wrap {width:1000px; margin:0 auto;}
+
+    /* 헤더 */
+    #wrap #top {height:140px;}
+    #wrap #top h1{float:left; width:600px;}
+    #wrap #top h1 img {margin:20px 0px 20px 45px;}
+    #wrap #top ul {float:right; width:400px;}
+    #wrap #top ul li {display:inline;}
+    #wrap #top ul li a {display:block;  
+                        float:left;
+                        font-size:20px; font-weight: bold;
+                        padding:58px 10px 58px 10px;
+                        }
+    #wrap #top ul li a:hover {color:white; background: midnightblue;}  
+
+    /* 본문 */
+    #wrap #contents {clear:both; height:741px;}
+
+    /* 메인 왼쪽 */
+    #contents #left {float:left; width:560px;}
+    #contents #left #l-img {width:499px; height:691px; margin:20px 0 0 45px; 
+                                  position: relative;
+                                  overflow: hidden;
+                                  border:5px solid #ffffff;}
+    #contents #left #l-img img {width:499px; height:691px; 
+                                position: absolute;
+                                left:0;
+                               }
+    #contents #left #l-img .caption { position: absolute; bottom:-250px;
+                                            width:499px; height:200px;
+                                            font-size:14px;
+                                            padding:5px;
+                                            background: rgba(0,0,0,0.3); color:#ffffff;
+                                            transition:all 300ms linear;}
+    #contents #left #l-img .caption p {position: absolute; bottom:100px;}
+
+    #contents #left #l-img:hover .caption{transform: translateY(-100%);}
+    /* 메인 오른쪽 */
+    #contents #right {float:right; width: 400px;}
+    #wrap #contents #right ul {margin:20px 0 0 20px;}
+    #wrap #contents #right ul li {margin: 20px 0 0 20px;}
+    #wrap #contents #right ul li img {display:block; width:300px; height:135px; border:5px solid white;}
+    #wrap #contents #right ul li dl {width:290px; padding:10px 5px 10px 5px; background: white; border: 5px solid white;
+    text-align:right; color:midnightblue;}
+    #wrap #contents #right ul li dl dt {font-size: 18px; text-align: right; text-transform: uppercase;}
+    #wrap #contents #right ul li dl dd{font-size: 14px;}
+
+    /* 푸터 */
+    #wrap #footer {clear:both; width:1000px; color:white;}
+    #wrap #footer #f-left {float:left; margin: 30px 0 0 20px;}
+    #wrap #footer #f-left img {float:left;}
+    #wrap #footer #f-left a {color:white;}
+    #wrap #footer #f-left p {float: left;text-align: left;}
+    
+    #wrap #footer #f-lefttwo {float:left; margin: 0 0 0 20px;}
+    #wrap #footer #f-left a {color:white;}
+    #wrap #footer #f-left p {float: left;text-align: left;}
+
+    #wrap #footer #f-right {float:right; margin:15px 0 0 15px; }
+    #wrap #footer #f-right p {float:right; padding:20px 0 20px 0px; text-indent: 30px;}
+    #wrap #footer #f-right p span {font-size: 25px;text-transform: capitalize;}
+    #wrap #footer #f-right div {float:right; margin:5px 20px 5px 0;}
