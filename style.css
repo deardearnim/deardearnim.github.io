@@ -50,17 +50,18 @@
       #contents #right ul li dl dd{font-size: 14px;}
 
     /* 푸터 */
-    footer {clear:both; width:1000px; color:white;}
-    footer #f-left {float:left; margin: 30px 0 0 20px;}
-    footer #f-left img {float:left;}
-    footer #f-left a {color:white;}
-    footer #f-left p {float: left;text-align: left;}
+    #footer {clear:both; position: relative; overflow:hidden; width:1000px; color:white;}
+    #footer #footer#f-left {display:block; position: absolute; float:left; width:100px; height:300px; }
+    #footer #f-left img {float:left;}
+    #footer #f-left a {color:white;}
+    #footer #f-left p {float: left;text-align: left;}
 
-    footer #f-lefttwo {float:left; margin: 0 0 0 20px;}
-    footer #f-left a {color:white;}
-    footer #f-left p {float: left;text-align: left;}
+    #footer #f-lefttwo {display:block; position: absolute; float:left;
+              width:100px; height:300px; margin:42 0 42px 0;}
+    #footer #f-left a {color:white;}
+    #footer #f-left p {float: left;text-align: left;}
 
-    footer #f-right {float:right; margin:15px 0 0 15px; }
-    footer #f-right p {float:right; padding:20px 0 20px 0px; text-indent: 30px;}
-    footer #f-right p span {font-size: 25px;text-transform: capitalize;}
-    footer #f-right div {float:right; margin:5px 20px 5px 0;}
+    #footer #f-right {display:block; position: absolute; float:right; margin:15px 0 0 15px; }
+    #footer #f-right p {float:right; padding:42px 0 42px 0px; text-indent: 30px;}
+    #footer #f-right p span {font-size: 25px;text-transform: capitalize;}
+    #footer #f-right div {float:right; margin:5px 20px 5px 0;}
