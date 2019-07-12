@@ -1,6 +1,6 @@
 /* 초기화 */
     *{margin:0; padding:0;}
-    body {background:url(img/bg.png) repeat-x;width:1000px; margin:0 auto;}
+    body {background:url(img/bg.png) repeat-x; width:1000px; margin:0 auto;}
     li {list-style:none;}
     a {text-decoration:none;}
 
