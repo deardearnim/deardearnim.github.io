@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* 기본 CSS */
+.container {width:90%; max-width: 1132px; margin:0 auto;}
+
+.cfixed:after, .container:after {display:block; content:''; clear:both;}
+
+.blind {position: absolute; width:0; height: 0; line-height: 0; text-align: -999999px; overflow:hidden;}
+
+.sec-tit {font-size: 42px; color:#3f51b5; font-weight: normal;}
+
+.divider {width:90%; max-width: 1132px; margin: 0 auto; margin-top:77px; background: #eeeeee;}
+.m-divider {width:20px; margin:0 auto; margin-top: 77px; background: #3f51b5;}
+
+#wrap {position: relative;}
+
+/* 헤더 */
+.header {position:relative; padding:28px 53px; overflow: hidden;}
+.header .logo {float:left;}
+.header .logo a {font-size:30px; color:#3f51b5; 
+                font-weight: normal;}
+.header .gnb { float:right; position:static; width:auto; margin-top:8px;}
+.header .gnb li {float:left; margin-left:20px;}
+.header .gnb li a {padding:0; font-size:16px; color:#3f51b5; text-transform: uppercase;}
+
+/* 슬라이드 */
+.slider img {display:block;width:100%; max-width:100%; height:auto;}
+
+/* 디스플레이 - we are*/
+.display-section {margin-top:110px; text-align: left; overflow:hidden;}
+.display-section .sec-tit {float:left;}
+.display-section .desc {float:right; width:600px; 
+                        position: relative;
+                        font-family:'PT serif'; color:#616161;
+                        line-height: 1.9;
+                        padding-left:20px;}
+.display-section .desc:before {display:block; position: absolute;
+                        top:9px; left:0;
+                        content:""; width:2px; height: 44px;
+                        background-color:#e0e0e0;}
+/* 프로모션 - we are 밑 아이콘*/
+.promotion-section {margin-top:110px;}
+.promotion-section .promo-list li {text-align:center; float:left; width:268px; margin-left:20px;}
+.promotion-section .promo-list li:first-child {margin-left: 0;}
+.promotion-section .promo-list li img {height:50px;}
+.promotion-section .promo-list li h3 {margin:30px 0 22px 0; color:#3f51b5;}
+.promotion-section .promo-list li p {font-size:18px;font-family:'PT serif'; color:#616161; line-height:1.5;text-align: initial;}
+
+/* 최근 작업 영역 - work*/
+
+.work-section {margin-top:124px;}
+.work-section .sec-tit {width:90%; max-width:1132px; margin:0 auto; margin-bottom:82px; text-align:left;}
+.work-section .work-list li {width:25%; float:left;}
+.work-section .work-list li img{display: block;width:100%; height:auto; max-width:100%;}
+
+.work-section .work-list li a {display:block; position: relative; width:100%; height:100%;}
+
+.work-section .work-list li a:before {display:block; position: absolute;top:0; left:0; z-index: 10; width:100%; height:100%; background: #3f51b5; content:""; opacity:0; transition:all 0.2s;}
+.work-section .work-list li a:hover:before {opacity:0.8;}
+.work-section .work-list li .info {position:absolute;top:0; left:37px; z-index:20;
+transition: all 0.3s; opacity:0;}
+
+.work-section .work-list li a:hover .info {transform: translateY(37px); opacity:1;}
+
+.work-section .work-list li .info h3 {margin-bottom:8px; font-size:23px; color:#ffffff; font-weight:normal;}
+.work-section .work-list li .info span {margin-bottom:8px; font-size:11px; color:#ffffff;}
+
+/*최신글 영역 - 블로그 */
+.blog-section {margin-top:124px;}
+.blog-section .sec-tit {text-align: center; float:left;}
+.blog-section .blog-list {float:right;}
+.blog-section .blog-list li {float:right; width:268px; margin-left: 20px;}
+.blog-section .blog-list li img {display:block; width:100%; height:auto;}
+.blog-section .blog-list li time{display:block;margin:16px 0 18px;font-size:14px; color:#9e9e9e;}
+.blog-section .blog-list li h3{font-size:21px; line-height:1.6; color:#424242;}
+
+/* 연락처 영역 - 컨텍트 */
+.contact-section {margin-top:178px;}
+.contact-section .sec-tit {float:left;}
+.contact-section .form-box {float:right; width:844px; color:#3f51b5;}
+.contact-section .form-box .form { margin-right:20px;}
+
+.contact-section .form-box .form, .contact-section .form-box .textarea {float:left;width:412px;}
+
+.contact-section .form-box .form input {margin-bottom:40px;}
+.contact-section .form-box .textarea textarea {height:160px; margin-bottom:40px;}
+
+.contact-section .form-box .send-btn { text-align:right;}
+.contact-section .form-box .send-btn button  {text-align:right; padding:12px; margin:0;border:0; font-size:12px; background-color:#3f51b5; color: #ffffff; 
+    font-family: 'Montserrat'; cursor:pointer;}
+
+    /* 푸터 */
+    footer {margin-top:105px;}
+    footer iframe {width:1132px; height:424px;}
+    footer p {margin:35px 0; color:#3f51b5;text-align: center; font-weight: bold;}
