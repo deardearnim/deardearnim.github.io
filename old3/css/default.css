@@ -1,0 +1,332 @@
+
+/* reset css */
+*{margin:0; padding:0; border:0; outline:0; vertical-align: top;}
+article, aside, details, figcaption, footer, header, menu, nav, section {display: block;}
+ul, ol, dl {list-style: none;}
+img {max-width: 100%; border:0; vertical-align: top;}
+a {vertical-align: top; text-decoration: none; color:#000000;}
+table {border-collapse: collapse; border-spacing: 0; }
+input, select {vertical-align:middle;}
+body {background: url(../img/body_bg.jpg) repeat-x #1a1a1a;
+    font-size: 100%; line-height: 1;}
+label {cursor: pointer;}
+i, em, address {font-style:normal;}
+
+/* 레이아웃 */
+#wrap {
+    width:1200px; margin:0 auto; background: #ffffff; position: relative;}
+header {
+    width:178px; float:left; padding:0 33px 0 33px; background: #ffffff;} /* width:244px; */
+
+#main {
+    margin:0 220px 0 244px; border-left:1px solid #ddd;
+    border-right:1px solid #ddd; min-height:1127px;
+    box-sizing: border-box;/*w3c*/
+    -webkit-box-sizing: border-box;/* 크롬, 사파리 */
+    -moz-box-sizing: border-box;/* 파이어폭스 */}
+#contents {
+    width:220px; position: absolute; top:0; right:0; background: #1a1a1a;}
+#foot {
+    clear:both; height:118px; border-top:1px solid #ddd;}
+
+/* 헤더 */
+h1.logo {
+    margin-top:33px;}
+.nav{
+    margin-top:32px;}
+.nav li {
+    background:url(../img/blit_arrow.png) no-repeat 168px;}
+.nav a {
+    display: block; height:44px; line-height: 44px; border-bottom:1px solid #cdcdcd; font-weight: bold; text-transform: uppercase; padding-left:6px; width:178px; 
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;/* 크롬, 사파리 */
+    -moz-box-sizing: border-box;/* 파이어폭스 */}
+
+.nav a:hover {
+    color:#ffffff; text-align:center; padding-left:0;}
+.nav li a:hover {
+    background: #1a1a1a;}
+    
+#SNS {
+    border-bottom: 1px solid #cdcdcd; 
+    padding:20px 0;}
+
+#follow {border-top: 1px solid #cdcdcd; 
+    padding-top:25px; width:178px;}
+#follow h3{
+    font-size:0.75em;  float:left;}
+#follow span {
+    float:right; margin-top:5px;}
+.follow_list {
+    clear:both; overflow: hidden;}
+.follow_list li {
+    float:left; margin:0 6px 6px 0;}
+.follow_list li.no-margin {
+    margin-right: 0;}
+
+/* css3 가능시 가상 class 사용 방법 
+.follow_list li:nth-child(4n+4){margin-right:0;} */
+
+#news{
+    margin-top:20px; width:178px;}
+#news h3 {
+    font-size:0.75em; float:left;}
+#news span {
+    float:right; margin-top:5px;}
+#news ul {
+    clear: both;}
+#news ul li {
+    font-size:0.75em; line-height: 18px; height:18px; background: url(../img/blit_list.png) no-repeat 3px 8px; padding-left:8px; 
+    display:block;
+    -webkit-display:block;
+    -moz-display:block;
+    line-clamp:1;
+    -webkit-line-clamp:1;
+    -moz-line-clamp:1;
+    overflow: hidden;
+    word-wrap: break-word;}
+
+    /* text-overflow: ellipsis; overflow:hidden; white-space: nowrap;*/
+
+#news li a{color:#888888;}
+
+#twitter {
+    margin-top:20px; overflow: hidden; width:176px;}
+#twitter h3 {
+    font-size:.75em; float:left;}
+#twitter span {
+    float:right; margin-top:5px;}
+#twitter dl {
+    font-size:0.75em; margin-top:6px; color:#888888; letter-spacing: -1px; float:left;}
+#twitter dl img {
+    border:solid 1px #f0f0f0;}
+#twitter dt strong {
+    display: block; padding:8px 0 7px 0;}
+#twitter dt.last {
+    margin-top:19px;}
+#twitter dd {
+    line-height: 1.4;}
+
+/* 메인 */
+#img_bn_area {
+    width:100%; background:#1a1a1a; text-align: center;}
+
+/* 서치 */
+#search_area {
+    background:#1a1a1a; 
+    border-top:1px solid #ddd; 
+    text-align:center; padding:15px;}
+.search_box {
+    background:#ffffff; 
+    position: relative; 
+    padding:12px;}
+.search_box .tit_search {
+    position: absolute; top:18px; left:15px;
+    font-size: 0.875em;}
+.search_box .input_box{
+    background: #1a1a1a; margin-left:100px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;overflow:hidden;height:27px;}
+ .search_box .input_box input {
+     float:left; width:75%; padding:5px; background: transparent; color:#ffffff;}
+ .search_box .input_box img {
+     float:right;}
+
+ /* 디어 프로젝트 */
+ #dear_project {
+     padding:30px 30px 20px 30px;border-bottom:1px solid #ddd; overflow:auto;}
+ #dear_project h2 {
+     margin-bottom:14px; font-size:112.5%; letter-spacing: -1px;position: relative;}
+ #dear_project .btn_detail {
+     position: absolute; right:0; top:0;}
+ #dear_project .now {
+     font-size:0.75em; color:#666666; margin-right:140px; letter-spacing: -1px; line-height:16px;} 
+
+ #dear_project ul {margin-top:25px;}
+ #dear_project li {float:left; width:64px; text-align: center; padding:5px; }
+ #dear_project li span {font-size:0.625em; color:#666666; padding-top:5px; display:block;}
+
+ /* 굿즈 */
+
+#goods {width:50%; float:left; padding:30px 15px 0 30px;
+        box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box; overflow:hidden;}
+#goods h2{font-size: 112.5%; letter-spacing: -1px; position: relative;}
+#goods .btn_more {position: absolute; right:0; top:0;}
+.goods_table {border-top:1px solid #000000; border-bottom:1px solid #000000;font-size:0.6875em; text-align: center; margin:15px 0 10px ;
+    color:#abaaa9; width:100%;}
+.goods_table th {border-bottom:1px solid #000000; 
+    background:#242724; height:27px; 
+    border-right:1px solid #000000; 
+    line-height: 27px;}
+.goods_table th:last-child{border-right:0;}
+.goods_table td { height:28px; color:#666666; 
+    border-right:1px solid #000000; line-height: 28px;}
+.goods_table td:last-child{border-right:0;}
+
+.goods_table .no_border {border-right:none;}
+
+/* css 가능시 가상 class 이용 
+.stock_table th:last-child {border-right:0;}
+.stock_table td:last-child {border-right:0;}
+또는
+.stock_table td:nth-child(4) {border-right:0;}
+.stock_table th:nth-child(4) {border-right:0;}
+*/
+
+#goods ul li {font-size:0.6875em; height:18px; line-height:18px; background:url(../img/blit_list.png) no-repeat 6px; padding-left:10px;
+color:#666666; overflow:ellipsis; text-overflow: hidden; white-space: nowrap;}
+
+/* 유튜브 */
+
+#youtube {width:50%; float:left; padding:30px 15px 0 30px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box; overflow:hidden;}
+#youtube h2 {font-size: 112.5%; letter-spacing: -1px; position: relative;}
+#youtube .btn_more {position: absolute; right:0; top:0;}
+#youtube .now {margin:8px 0 10px 0; font-size:0.75em; color:#666666;}
+#youtube ul {margin-top:10px;}
+#youtube ul li {font-size:0.6875em; height:18px; line-height:18px; background:url(../img/blit_list.png) no-repeat 2px 7px; padding-left:10px;
+color:#666666; overflow:ellipsis; text-overflow: hidden; white-space: nowrap;}
+
+#contents li img {width:220px; height:375px; margin-bottom:1px;}
+
+#foot_logo {float:left; width:243px; }
+#foot_logo img {margin:25px 0 0 60px;}
+
+#foot_area {float:left; border-left:1px solid #e9e9e9; height:120px; width:244px;}
+.foot_menu {margin:15px 0 0 30px; }
+.foot_menu a{font-size:0.625px; color: #999999; margin-right:12px; font-weight: bold; }
+.foot_menu strong{color:#222222;}
+
+.foot_copy {font-size:.625em; color:#999999; margin:10px 0 0 30px;line-height: 14px;}
+
+footer .right_area {background: #323532; float:right; height:120px;width:220px; border-left: 1px solid #e9e9e9;}
+
+/* 반응형 영역 */
+@media screen and (max-width:1280px){
+    #wrap {width:95%; margin:0 auto}
+
+@media screen and (max-width:1024px){   
+    #wrap {width:100%}
+    #main {margin:0 0 0 244px; min-height: 0; border:none; background: none;}
+    #dear_project {background: #1a1a1a; border-top: 1px solid #dddddd;}
+    #dear_project h2 {color:#ffffff;}
+    #dear_project .now {color:#999999;}
+    #dear_project li span {color:#999999;}
+
+    #youtube {padding-bottom:0;}
+    #contents  {margin:0 0 0 244px; width:auto; position: relative; clear:left; overflow:auto; padding-bottom: 10px; background: #ffffff;}
+
+    #contents li {float:left; width:33.33%; height: 190px; overflow: hidden; padding:10px 0 0 10px; box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    #contents li:nth-child(3) {padding-right:10px; width: 33.34%;}
+    #contents li img {width:100%; height:auto;}
+
+    footer{margin:0;}
+    footer .right_area {display:none;}
+
+}
+@media screen and (max-width:768px){
+    #dear_project li {width:14%;}
+    #search_area {padding:5px;}
+    #goods{padding-right:30px; border-left:0; float:none; width:100%;}
+    #youtube {padding:0 30px 20px 30px; width: 100%;}
+    #conternts li {height:150px;} 
+}
+
+@media screen and (max-width:600px){
+    header {width:100%; float:none; padding:0; margin-top:10px;} 
+    h1.logo {
+        text-align: center; margin:0; padding:10px 0;}
+    .nav {
+        border-top:1px solid #ffffff; background: url(../img/body_bg.jpg)repeat-x; overflow:hidden;}   
+    .nav li {
+        float:left; width:33.3%; text-align:center; font-size:0.75em; border-right:1px solid #ffffff; border-bottom: 1px solid #ffffff; background: none;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;}
+
+    .nav li:nth-child(3n) {
+        width:33.3%; border-right:none;}
+    .nav a {
+        display:block; width:100%; border-bottom:none; color:#ffffff; text-shadow: 0 0 5px rgba(0,0,0,0.8);
+        font-family: Verdana;}
+
+    #sns, #follow span, #news span, #twitter span {display:none;}
+
+    #follow {width:100%; clear:both; margin-top:10px;}
+    #follow h3 {height:23px; font-size:.75em; float:left; padding-left: 10px;}
+
+    .follow_list {margin:0 10px 0 10px; }
+    .follow_list li {float:left; padding:0 6px 6px 0; margin:0;}
+    .follow_list li:last-child {padding-right:0;}
+
+    #news {width:100%; margin-top:20px;}
+    #news h3, #twitter h3 {padding-left:10px;}
+
+    #news ul {width:100%;}
+    #news li {border-bottom:1px solid #dddddd; padding-left:20px; background:url(../img/blit_list.png) no-repeat 12px 7px; height:25px; line-height: 25px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; }
+
+    #news li:nth-child(3) {border-bottom: none; 
+        margin-bottom:20px;}
+    #twitter {display:none;}
+    #main {border-left:0; margin:0; clear:both;}
+
+    #dear_project {padding:20px 10px 0 10px;}
+    #dear_project ul {width:100%; overflow:auto;}
+    #dear_project ul li {width:16.66%; padding:5px 0;}
+    #dear_project ul li:last-child {width:16.7%;}
+    #dear_project h2 a {display: none;}
+
+    #goods {padding:20px 10px 10px 10px;}
+    #goods .btn_more {display: none;}
+
+    .goods_table {border-top:1px solid #1a1a1a; 
+                     border-bottom:1px solid #1a1a1a; }
+    .goods_table th {background: #1a1a1a; color:#ffffff; border:0;}
+    .goods_table td {border-right:1px solid #1a1a1a;}
+    .goods_table td:last-child {border:none;}
+
+    #youtube {display: none;}
+
+    #contents {margin:0;}
+    #contents li img {max-width:100%; height:auto;}
+
+    #foot_logo {display: none;}
+    #foot_area {text-align:center; width:100%; height:120px;border-left:0;}
+
+    .foot_menu {margin:30px 0 0 0;}
+    .foot_copy {font-size:10px; color:#999999; margin:10px 0 0 0;}
+}
+
+@media screen and (max-width:480px){
+    #wrap {min-width: 300px;}
+    #follow {margin-top:10px;}
+    #follow h3 {height:23px; font-size: 0.75em; float:left; padding-left: 10px;}
+    .follow_list {width:100%; margin:0;}
+    .fololow_list li {margin:0; padding:0; width:8.333%;}
+    .follow_list li img {width:100%;}
+
+    .follow_list li:last-child(4n+4) {margin-right:0;}
+    .follow_list li:last-child(12) {margin-right:8.337%;}
+
+
+    #dear_project {padding:20px 10px 10px 10px;}
+    #dear_project li {display:none;}
+    #dear_project li:nth-child(1) {display:block; width:25%;}
+    #dear_project li:nth-child(2) {display:block; width:25%;}
+    #dear_project li:nth-child(3) {display:block; width:25%;}
+    #dear_project li:nth-child(4) {display:block; width:25%;}
+
+    #dear_project .now {margin:0;}
+
+    #contents li {height:100px;}
+
+
+}
