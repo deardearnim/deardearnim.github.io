@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* 기본 세팅 */
+*{box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size:1vw;}
+
+html,body{
+    background: #fff;
+    color:#000000;
+    padding: 0;
+    margin: 0;
+}
+a {text-decoration: none; color:black;}
+a:hover {color:#9ebff3}
+
+
+img{vertical-align: bottom;}
+
+ul {list-style: none;}
+
+.full-container {width:100%;}
+.container{width:80%; margin: auto;}
+
+/* 헤더 */
+.header {position: relative; width:100%; height: 80px;
+    float:left; 
+    background-color: #ffffff;
+    z-index: 100;
+    display: flex; justify-content: center; align-items: center;
+    border-bottom: 1px solid #20488a;}
+.header>.container {height: 100%;}
+/* 로고 */
+.logo {width:20%; height:100%;
+    display: flex; justify-content: center; align-items: center;
+    float:left;}
+.logo>a>img {width:80%; height: auto; 
+    padding:2%; }
+
+/* 네비 */
+.gnb {height:100%; width:80%;
+    float:left;
+    display: flex; justify-content: center; align-items: center;
+    }
+.gnb-list {width:100%;height: auto;float:left;margin-left:60%;}
+.gnb-list>li {float:left; margin:0 3%;}
+.gnb-list>li>a {transition: 0.3s;}
+.drop-down {height:auto; position: absolute; 
+    background-color: rgba(90, 128, 172, 0.486);
+    opacity: 0; visibility: hidden; z-index: 100;
+    transition: 0.3s;}
+.drop-down>li {padding:10px 20px;transition: 0.3s;} 
+.gnb-list>li:hover .drop-down {opacity: 1;visibility: visible;}
+.drop-down>li>a {color:#000000;transition:0.3s;}
+.drop-down>li>a:hover {color:#ffffff;}
+.contents{width:100%;position: relative;}
+
+/* 메인 */
+.main {position: relative;float:left;clear:both;
+   width:auto;margin-bottom:100px;}
+.main-img{width:100%;}
+.main-img>img { width:100%;}
+.main-text {position: absolute;top:80%;left:10%;}
+.main-text h2 {color:#ffffff; font-size:2vw;}
+
+/* 김디어 소개 */
+.kimdear {position: relative;float:left;clear:both;
+    width:100%;margin-bottom:100px;}
+.kimdear h2 {float:left;clear:both; 
+    border-bottom: 1px solid black; margin:2% 0;width:10%;}
+.kimdear-img {clear:both;float:left;width:50%;height:100%;}
+.kimdear-img>img {width:80%;height:100%;}
+.kimdear-text {float:left;padding:0 2%;width:50%; height:100%;}
+.kimdear-text p {border-left:1px solid #000000; padding-left:10%;margin-top:35%;}
+
+/* 작업물 */
+.work {position: relative;float:left;clear:both;width:100%;margin-bottom:100px; }
+.work h2 {float:left; 
+    border-bottom: 1px solid black; margin:2% 0; width:10%;}
+.work-all {float:left;clear:both;width:100%;height:150px;
+    display: flex;justify-content: center;align-items: center;}
+.work-all a {float:left;clear:both;width:100%;height: 150px;}
+.work-illustration {float:left;width:100%;margin-right:1.8%;text-align: center;height: 100%;
+    background-color:#9ebff3;display: flex;justify-content: center;align-items: center;
+    transition: 0.2s;}
+.work-design {float:left;width:100%;margin-left:1.8%;text-align:center;height:100%;
+    background-color: #9ebff3;display: flex;justify-content: center;align-items: center;
+    transition: 0.2s;}
+.work-illustration:hover {background-color:#20488a;}
+.work-design:hover {background-color:#20488a;}
+.work-illustration:hover .illust-text>p {color:#ffffff;}
+.work-design:hover .design-text>p {color:#ffffff;}
+/* 에스엔에스 */
+.sns {position: relative;float:left;clear:both;width:100%;height:100%;margin-bottom:100px; }
+.sns h2 {float:left; 
+    border-bottom: 1px solid black; margin:2% 0;
+    width:10%;}
+.sns-icon {width:50%; float:left; clear:both;height:100%;
+    display: flex; justify-content: center; align-items: center; align-content: center;}
+.twitter-hover {width:25%;float:left;padding:4%;}
+.twitter-hover:hover .twitter>a>img{transform:scale(1.2);}
+.insta-hover{width:25%;float:left;padding:4%;}
+.insta-hover:hover .insta>a>img {transform: scale(1.2);}
+.twitter img {width:100%;transition:0.2s;}
+.insta img{width:100%;transition:0.2s;}
+.sns-text {float:left;padding:0 2%;width:50%; height:100%;}
+.sns-text p {border-left:1px solid #000000;padding:10%;}
+
+
+/* 컨텍 */
+.contact {position: relative;float:left;clear:both;width:100%;margin-bottom:40px; }
+.contact h2 {float:left; 
+    border-bottom: 1px solid black; margin:2% 0;width:10%;}
+.send-mail { float:left; clear:both; margin:2% 0;}
+.send-mail>a:hover{color:#9ebff3;transition: 0.2s;}
+
+/* 푸터 */
+.footer {position: relative;float:left; clear:both;width:100%;margin-top:20px;margin-bottom: 40px;
+    text-align: center;}
+
+    /* ---------------------------------------------------------- */
+    /* 일러스트 서브 페이지 */
+    .container2 {width:80%; margin: auto;}
+    .work-illust-sub {position: relative;float:left; clear:both;margin-top:80px;}
+    .work-illust-sub h2 {float:left;clear:both; 
+        border-bottom: 1px solid black; margin:2% 0;width:120%;}
