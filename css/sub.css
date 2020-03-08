@@ -126,11 +126,27 @@ ul {list-style: none;}
     /* 일러스트 서브 페이지 */
     .full-container {display:none;}
     .container1{display:none;}
+
     .container2 {width:80%; margin: auto;}
-    .work-illust-sub {position: relative;float:left; clear:both;margin-top:40px;}
+    .work-illust-sub {float:left; clear:both;margin-top:40px;
+        width:100%; }
     .work-illust-sub h2 {float:left;clear:both; 
-        border-bottom: 1px solid black; margin:2% 0;width:120%;
+        border-bottom: 1px solid black; margin:2% 0;width:100%;
         margin-bottom:40px;}
     .liiust-list {float:left;clear:both;width:100%; height:auto;}
-    .liiust-list ul {}
-    .liiust-list ul li {float:left;}
+    .list-ul {width:100%;}
+    .list-li {float:left;width:21%;height:auto;margin-right:1%;}
+    .list-li:nth-child(4n) {margin-right:0;}
+    .list-li img{width:100%;}
+
+    /* 디자인 서브 페이지 */
+    .work-design-sub {float:left; clear:both;margin-top:40px;
+        width:100%; }
+    .work-design-sub h2 {float:left;clear:both; 
+        border-bottom: 1px solid black; margin:2% 0;width:100%;
+        margin-bottom:40px;}
+    .design-list {float:left;clear:both;width:100%; height:auto;}
+    .design-ul {width:100%;}
+    .design-li {float:left;width:21%;height:auto;margin-right:1%;}
+    .design-li:nth-child(4n) {margin-right:0;}
+    .design-li img{width:100%;}
