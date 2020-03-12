@@ -135,7 +135,7 @@ ul {list-style: none;}
         margin-bottom:40px;}
     .liiust-list {float:left;clear:both;width:100%; height:auto;}
     .list-ul {width:100%;}
-    .list-li {float:left;width:21%;height:auto;margin-right:1%;margin-bottom:1%;}
+    .list-li {float:left;width:21%;height:auto;margin-right:10%;margin-bottom:10%;}
     .list-li:nth-child(4n) {margin-right:0;}
     .list-li img{width:100%;}
 
