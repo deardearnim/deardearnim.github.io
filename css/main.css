@@ -74,8 +74,9 @@ ul {list-style: none;}
     border-bottom: 1px solid black; margin:2% 0;width:20%;}
 .kimdear-img {float:left;clear:both;width:50%;height:100%;}
 .kimdear-img>img {width:80%;height:100%;}
-.kimdear-text {float:left;padding:0 2%;width:50%; height:100%;}
-.kimdear-text p {border-left:1px solid #000000; padding-left:10%;}
+.kimdear-text {float:left;padding:0 2%;width:50%; height:100%;display: table;}
+.kimdear-text p {border-left:1px solid #000000; padding-left:10%;
+    display:block;margin:30% 0;}
 
 /* 작업물 */
 .work {position: relative;float:left;clear:both;width:100%;margin-bottom:100px; }
@@ -193,10 +194,12 @@ ul {list-style: none;}
     .gnb{display: none;}
     .m-nav-wrap {display: block;}
 
+    .kimdear-text p {margin:25% 0;}
 }
 
 @media screen and (max-width:720px){
     * {font-size: 2vw;}
+    .kimdear-text p {margin:0% 0;}
 }
 @media screen and (max-width:450px){
     *{font-size:3vw;}

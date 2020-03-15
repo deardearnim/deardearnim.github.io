@@ -181,7 +181,7 @@ ul {list-style: none;}
         width:20%;
         display: flex;align-items: center;}
     .detail-page1 {float:left;clear:both;width:100%;padding:4%;}
-    .detail-page1 img{width:100%;display: block; margin: 0 auto;}
+    .detail-page1 img{width:60%;display: block; margin: 0 auto;}
     .detail-page2 {float:left;clear:both;width:100%;padding:2%;}
     .detail-page2 img {width:100%;padding:2% 10%;}
     /* 가루 상세 페이지 */
@@ -190,18 +190,24 @@ ul {list-style: none;}
         border-bottom: 1px solid black; margin:2% 10%;
         width:20%;
         display: flex;align-items: center;}
-    .detail-page1 {float:left;clear:both;width:100%;padding:2% 10%;}
-    .detail-page1 img{width:100%;display: block; margin: 0 auto;padding:2% 10%;}
+    .detail-page1-garu-sample {float:left;clear:both;width:100%;padding:2% 10%;}
+    .detail-page1-garu-sample img{width:80%;display: block; margin: 0 auto;padding:2% 10%;}
+    .detail-page1-garu {float:left;clear:both;width:100%;padding:2% 10%;}
+    .detail-page1-garu img{width:50%;display: block; margin: 0 auto;padding:2% 10%;}
     /* 이리스 상세 페이지 */
+    .detail-page1-iris-logo {float:left;clear:both;width:100%;padding:4%;}
+    .detail-page1-iris-logo img{width:60%;display: block; margin: 0 auto;}
     .detail-page1-iris-poster {float:left;clear:both;width:100%;
         display:flex; align-items: center;}
     .detail-page1-iris-poster img{float:left;clear:both;width:40%;
         height:auto;margin-left:10%;}
     .detail-page1-iris-poster img:nth-child(2){margin-left:2%;}    
     /* lsy 상세 페이지*/
+    .detail-page1-lsy-menu{float:left;clear:both;width:100%;padding:4%;}
+    .detail-page1-lsy-menu img{width:50%;display: block; margin: 0 auto;}
     .detail-page1-lsy-poster {float:left;clear:both;width:100%;
         display:flex; align-items: center;}
-    .detail-page1-lsy-poster img {width:100%;
+    .detail-page1-lsy-poster img {width:50%;
         float:left;clear:both;
         display:flex; align-items: center;
         width:30%; height: auto;}
