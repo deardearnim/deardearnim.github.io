@@ -1,0 +1,21 @@
+$(document).ready(function(){
+
+    $(".m-open").click(function(){
+        $(".m-nav-box").stop().animate({
+            left:0,
+        });
+    });
+    $(".m-close").click(function(){
+        $(".m-nav-box").stop().animate({
+            left:"-100%",
+        });
+    });
+    $(".m-nav>li").click(function(){
+        if($(this).children(".m-drop-down").is(":hidden")){
+            $(".m-drop-down").slideUp();
+            $(".m-drop-down",this).slideDown();
+        }else{
+            $(".m-drop-down").slideUp();
+        }
+    });
+});
