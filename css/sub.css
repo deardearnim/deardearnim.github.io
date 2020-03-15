@@ -178,7 +178,7 @@ ul {list-style: none;}
     .contrainer-detail-1 {width:100%;}
     .detail-h2 {float:left; 
         border-bottom: 1px solid black; margin:2% 10%;
-        width:15%;
+        width:20%;
         display: flex;align-items: center;}
     .detail-page1 {float:left;clear:both;width:100%;padding:4%;}
     .detail-page1 img{width:100%;display: block; margin: 0 auto;}
@@ -188,7 +188,7 @@ ul {list-style: none;}
     .contrainer-detail-2 {width:100%;}
     .contrainer-detail-2 .detail-h2 {float:left; 
         border-bottom: 1px solid black; margin:2% 10%;
-        width:15%;
+        width:20%;
         display: flex;align-items: center;}
     .detail-page1 {float:left;clear:both;width:100%;padding:2% 10%;}
     .detail-page1 img{width:100%;display: block; margin: 0 auto;padding:2% 10%;}
