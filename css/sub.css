@@ -183,7 +183,7 @@ ul {list-style: none;}
     .detail-page1 {float:left;clear:both;width:100%;padding:4%;}
     .detail-page1 img{width:60%;display: block; margin: 0 auto;}
     .detail-page2 {float:left;clear:both;width:100%;padding:2%;}
-    .detail-page2 img {width:100%;padding:2% 10%;}
+    .detail-page2 img {width:85%;padding:2%;display: block; margin: 0 auto;}
     /* 가루 상세 페이지 */
     .contrainer-detail-2 {width:100%;}
     .contrainer-detail-2 .detail-h2 {float:left; 
