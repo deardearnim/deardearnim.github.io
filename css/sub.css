@@ -194,6 +194,18 @@ ul {list-style: none;}
     .detail-page1-garu-sample img{width:80%;display: block; margin: 0 auto;padding:2% 10%;}
     .detail-page1-garu {float:left;clear:both;width:100%;padding:2% 10%;}
     .detail-page1-garu img{width:50%;display: block; margin: 0 auto;padding:2% 10%;}
+    
+    /* 멈머냔냐 상세 페이지 */
+    .contrainer-detail-1 {width:100%;}
+    .detail-h2 {float:left; 
+        border-bottom: 1px solid black; margin:2% 10%;
+        width:20%;
+        display: flex;align-items: center;}
+    .detail-page1-mumnyan-illust {float:left;clear:both;width:100%;padding:4%;}
+    .detail-page1-mumnyan-illust img{width:80%;display: block; margin: 0 auto;padding:2% 10%;}
+    .detail-page1-mumnyan-emoticon {float:left;clear:both;width:100%;padding:2%;}
+    .detail-page1-mumnyan-emoticon img {width:50%;display: block; margin: 0 auto;padding:2% 10%;}
+
     /* 이리스 상세 페이지 */
     .detail-page1-iris-logo {float:left;clear:both;width:100%;padding:4%;}
     .detail-page1-iris-logo img{width:60%;display: block; margin: 0 auto;}
